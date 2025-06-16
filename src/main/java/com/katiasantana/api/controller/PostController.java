@@ -9,10 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/posts")
-@CrossOrigin(origins = {
-    "http://localhost:5173", 
-    "https://katiasantanabeauty-production.up.railway.app"
-})
 public class PostController {
 
     private final PostService service;
